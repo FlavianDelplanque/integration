@@ -1,0 +1,223 @@
+/* Toute les pages */
+body{
+	margin: 0;
+	padding: 0;
+}
+* {
+	color: white;
+}
+p, ul, h3, tr, th {
+	font-size: 3vmin;
+	margin: 0;
+}
+h1 {
+	font-size: 7vmin;
+}
+h2 {
+	font-size: 5.5vmin;
+	margin: 0;
+}
+h1, h2, h3 {
+	text-transform: uppercase;
+}
+.page {
+	height: 100vh;
+}
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+:root {
+	--blue-transparent:rgba(41,206,196,0.5);
+	--blue:rgb(41,206,196);
+}
+/* Nav */
+nav {
+	position: absolute;
+	height: 8%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	z-index: 1;
+}
+/* Logo et Nom */
+.logomaquette {
+	height: 80%;
+	width: 30vmin;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.logomaquette img {
+	height: 80%;
+}
+.logomaquette h2 {
+	font-size: 2vmin;
+	margin-left: 10%;
+}
+/* Liste page */
+.listenav {
+	height: 80%;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.listenav ul {
+	display: flex;
+	justify-content: space-around;
+	width: 60vmin;
+	list-style: none;
+	text-transform: uppercase;
+}
+/* Accueil */
+.accueil {
+	position: relative;
+	background-image: url("images/main-background.png");
+	background-size: cover;
+	background-position: center;
+	overflow-x: hidden;
+}
+.accueil #presentation {
+	text-align: center;
+	z-index: 1;
+}
+.accueil h1, .accueil h2, .accueil p {
+	margin: 0;
+}
+.accueil strong {
+	text-transform: uppercase;
+}
+.accueil p {
+	margin-bottom: 2vmin;
+}
+.accueil img {
+	position: absolute;
+	width: 60vmin;
+	top: 30%;
+	left: auto;
+}
+.accueil #gradiant {
+	height: 100vh;
+	width: 40vmin;
+	background: linear-gradient(0.25turn, var(--blue-transparent), transparent);
+	position: absolute;
+	transform: skewX(25deg);
+	left: 52%;
+	top: 0;
+}
+/* Competence */
+.competence {
+	background-color: black;
+}
+.competence section {
+	width: 70vw;
+	height: 70vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+.competence section .section div {
+	flex-direction: column;
+}
+.competence section .section {
+	width: 100%;
+	height: 50%;
+	display: flex;
+}
+.competence section .section div{
+	height: 100%;
+	width: 50%;
+}
+/* Ui Ux / Responsive */
+.competence .design {
+	background-color: gray;
+}
+.competence .design * {
+	width: 80%;
+}
+.competence .design h3{
+	margin: 0;
+}
+.competence .design p {
+	margin-top: 2vmin;
+}
+/* Info */
+.competence .info {
+	background-image: url("images/glass-img.png");
+	background-size: cover;
+	background-position: center;
+}
+.competence .info table {
+	width: 60%;
+	height: 60%;
+	border-collapse: collapse;
+	text-align: center;
+	text-transform: uppercase;
+}
+.competence .info th {
+	border: 2px solid white;
+	height: 14vmin;
+}
+.competence .info #info1 {
+	border-left: 2px solid white;
+}
+.competence .info #info2 {
+	border-right: 2px solid white;
+}
+.competence .info #info1, .competence .info #info2 {
+	border-bottom: 2px solid white;
+}
+
+/* En savoir plus */
+.competence .savoir {
+	background-image: url("images/road-img.png");
+	background-size: cover;
+	background-position: center;
+}
+.competence .savoir p {
+	width: 60%;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.competence .savoir button {
+	background-color: transparent;
+	border: 2px solid var(--blue);
+	color: var(--blue);
+	width: 30vmin;
+	height: 8vmin;
+	font-size: 3vmin;
+	text-transform: uppercase;
+}
+/* Services */
+.services {
+	background-image: url("images/desk-bg.png");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.service h3 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.services .descservice {
+	width: 35vmin;
+}
+.services section {
+	width: 60vw;
+	height: 60vh;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.services .service {
+	background-color: rgba(255,255,255,0.2);
+	width: 30%;
+	height: 45%;
+}
+.services .service img {
+	width: 20%;
+}
