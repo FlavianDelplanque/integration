@@ -28,7 +28,7 @@
 		<div id="presentation">
 			<p>Lorem <strong>ipsum</strong> dolor sit amet, <strong>consectetur</strong></p>
 			<h1>Maquette web design</h1>
-			<h1>Développeur web</h1>
+			<h1>Developpement web</h1>
 		</div>
 	</div>
 	<div class="competence page center">
@@ -98,7 +98,7 @@
 			</div>
 			<div class="service">
 				<img src="images/main-logo.png">
-				<h3>Responsive design</h3>
+				<h3>Responsive</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
 			</div>
 			<div class="service">
@@ -109,7 +109,23 @@
 		</section>	
 	</div>
 	<footer>
-		
+		<div class="coordonner">
+			<p>Maquette web design</p>
+			<p>22 rue des rues</p>
+			<p>78451 Ville</p>
+			<p>+33322574875</p>
+		</div>
+		<div class="liste">
+			<ul>
+				<li>Accueil</li>
+				<li>A propos</li>
+				<li>Services</li>
+			</ul>
+		</div>
+		<div class="copyright">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+			<p>copyright © Copyright 2019 Simplon</p>
+		</div>
 	</footer>
 </body>
 </html>
